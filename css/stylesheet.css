@@ -2,9 +2,10 @@ h1 {
   color: rgb(100, 100, 100);
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: #318fa0;
+  border-color: #318fa0;
   border-style: solid;
   border-radius: 10px;
+  background-color: lightgrey;
   display: inline;
 }
 
@@ -45,4 +46,55 @@ section {
   border: #318fa0;
   border-style: solid;
   background-color: lightgrey;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-right: 2rem;
+  display: inline-block;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border-color: #318fa0;
+  border-style: solid;
+}
+
+header {
+  text-align: center;
+}
+
+aside {
+  text-align: center;
+}
+
+article {
+  text-align: center;
+}
+
+nav {
+  border-color: #318fa0;
+  border-style: solid;
+  display: inline-block;
+  border-radius: 10px;
+  padding-right: 2rem;
+  background-color: lightgrey;
+}
+
+footer {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+div {
+  text-align: center;
 }
