@@ -50,6 +50,7 @@ section {
   margin-right: 2rem;
   margin-left: 2rem;
   padding-right: 2rem;
+  padding-left: 1rem;
   display: inline-block;
 }
 
@@ -80,6 +81,7 @@ nav {
   display: inline-block;
   border-radius: 10px;
   padding-right: 2rem;
+  padding-left: 2rem;
   background-color: lightgrey;
 }
 
@@ -97,4 +99,17 @@ footer {
 
 div {
   text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+h3.center {
+  color: rgb(100, 100, 100);
+  font-weight: bold;
+}
+
+section.skills {
+  position: relative;
+  bottom: 14rem;
+  margin-left: 1rem;
 }
