@@ -55,8 +55,8 @@ section {
 }
 
 img {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   margin-bottom: 1rem;
   border-color: #318fa0;
@@ -113,3 +113,51 @@ section.skills {
   bottom: 14rem;
   margin-left: 1rem;
 }
+
+input, select, textarea {
+  margin: 1rem;
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: #318fa0;
+  color: rgb(100, 100, 100);
+}
+
+::placeholder {
+  color: rgb(100, 100, 100);
+}
+
+:focus {
+  outline-color: #318fa0;
+}
+
+label {
+  width: 80px;
+  text-align: right;
+  display: inline-block;
+  color: #bd4b4b;
+}
+
+label[for="comments"] {
+  position: relative;
+  bottom: 7rem;
+}
+
+button[type="submit"] {
+  margin-left: 14rem;
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: #318fa0;
+  color: rgb(100, 100, 100);
+}
+
+form {
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: #318fa0;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  display: inline-block;
+  text-align: left;
+}
+
+
