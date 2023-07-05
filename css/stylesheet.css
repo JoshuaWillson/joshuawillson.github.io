@@ -54,7 +54,7 @@ section {
   display: inline-block;
 }
 
-img {
+#portrait {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -87,6 +87,9 @@ nav {
 
 footer {
   text-align: center;
+  background-color: lightgrey;
+  margin: -0.5rem;
+  padding-bottom: 1rem;
 }
 
 .left {
@@ -97,7 +100,7 @@ footer {
   text-align: center;
 }
 
-div {
+#index {
   text-align: center;
   position: sticky;
   top: 0;
@@ -158,6 +161,22 @@ form {
   padding-left: 1rem;
   display: inline-block;
   text-align: left;
+}
+
+#hero {
+  background-image: url(bluegreybackground.jpg);
+  background-repeat: round;
+  background-color: lightgrey;
+  margin: -0.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#intro {
+  background-color: lightgrey;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 
