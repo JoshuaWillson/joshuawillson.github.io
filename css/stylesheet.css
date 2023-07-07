@@ -112,12 +112,13 @@ h3.center {
 }
 
 section.skills {
-  position: relative;
-  bottom: 14rem;
+  position: static;
   margin-left: 1rem;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   margin: 1rem;
   background-color: lightgrey;
   border-style: solid;
@@ -179,4 +180,186 @@ form {
   margin-top: 1rem;
 }
 
+/* Laptop */
+@media only screen and (max-width: 2560px) {
+  section.skills {
+    margin-left: 1rem;
+  }
 
+  textarea {
+    width: 20rem;
+    font-size: smaller;
+  }
+
+  button[type="submit"] {
+    position: relative;
+    right: 2rem;
+    font-size: smaller;
+  }
+
+  p {
+    font-size: medium;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: larger;
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  #portrait {
+    height: 200px;
+    width: 200px;
+  }
+
+  h4 {
+    font-size: medium;
+  }
+
+  label {
+    font-size: small;
+  }
+
+  input {
+    font-size: smaller;
+  }
+
+  select {
+    font-size: smaller;
+  }
+
+  label[for="comments"] {
+    position: relative;
+    bottom: 6rem;
+  }
+}
+
+/* Tablet 768*/
+@media only screen and (max-width: 768px) {
+  section.skills {
+    margin-left: 1rem;
+  }
+
+  textarea {
+    width: 15rem;
+    font-size: x-small;
+  }
+
+  button[type="submit"] {
+    position: relative;
+    right: 4.3rem;
+    font-size: x-small;
+  }
+
+  p {
+    font-size: smaller;
+  }
+
+  h1 {
+    font-size: large;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
+  h3 {
+    font-size: small;
+  }
+
+  #portrait {
+    height: 150px;
+    width: 150px;
+  }
+
+  h4 {
+    font-size: smaller;
+  }
+
+  label {
+    font-size: smaller;
+  }
+
+  input {
+    font-size: x-small;
+  }
+
+  select {
+    font-size: x-small;
+  }
+
+  label[for="comments"] {
+    position: relative;
+    bottom: 6rem;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 425px) {
+  section.skills {
+    margin-left: 1rem;
+  }
+
+  form {
+    border-style: none;
+  }
+
+  textarea {
+    width: 10rem;
+    font-size: xx-small;
+  }
+
+  button[type="submit"] {
+    position: relative;
+    right: 6.7rem;
+    font-size: xx-small;
+  }
+
+  p {
+    font-size: xx-small;
+  }
+
+  h1 {
+    font-size: small;
+  }
+
+  h2 {
+    font-size: smaller;
+  }
+
+  h3 {
+    font-size: x-small;
+  }
+
+  #portrait {
+    height: 100px;
+    width: 100px;
+  }
+
+  h4 {
+    font-size: xx-small;
+  }
+
+  label {
+    font-size: x-small;
+  }
+
+  input {
+    font-size: xx-small;
+  }
+
+  select {
+    font-size: xx-small;
+  }
+
+  label[for="comments"] {
+    position: relative;
+    bottom: 5.3rem;
+  }
+}
