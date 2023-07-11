@@ -116,6 +116,7 @@ section.skills {
   margin-left: 1rem;
 }
 
+/* form */
 input,
 select,
 textarea {
@@ -164,6 +165,7 @@ form {
   text-align: left;
 }
 
+/* banner */
 #hero {
   background-image: url(bluegreybackground.jpg);
   background-repeat: round;
@@ -180,6 +182,7 @@ form {
   margin-top: 1rem;
 }
 
+/* responsive */
 /* Laptop */
 @media only screen and (max-width: 2560px) {
   section.skills {
